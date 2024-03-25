@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .right-box {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .left-box {
+        width: 20%;
+      }
+
+      @media (max-width: 200px) {
+        header {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+        }
+        .right-box {
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="left-box">
+        <div>
+          <h2>Hello Everyone</h2>
+        </div>
+        <nav>
+          <ul>
+            <li>Hello</li>
+            <li>World</li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="right-box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
